@@ -24,7 +24,7 @@
     "name": "TypeScript",
     "category": "Language",
     "description": "A strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.",
-    "icon": "icepanel.io",
+    "icon": "./assets/typescript-svgrepo-com.svg",
     "rating": 4.8,
     "difficulty": "Intermediate",
     "badge": "Essential"
@@ -34,7 +34,7 @@
     "name": "Node.js",
     "category": "Backend",
     "description": "An open-source, cross-platform JavaScript runtime environment for executing JavaScript code server-side.",
-    "icon": "icepanel.io",
+    "icon": "./assets/node-js-svgrepo-com.svg",
     "rating": 4.7,
     "difficulty": "Intermediate",
     "badge": "Scalable"
@@ -44,7 +44,7 @@
     "name": "Python",
     "category": "Language",
     "description": "A high-level, interpreted programming language known for its clear syntax, readability, and versatility.",
-    "icon": "icepanel.io",
+    "icon": "./assets/python-svgrepo-com.svg",
     "rating": 4.9,
     "difficulty": "Beginner-Friendly",
     "badge": "Versatile"
@@ -54,7 +54,7 @@
     "name": "Docker",
     "category": "DevOps",
     "description": "A platform designed to help developers build, share, and run modern applications using containerization.",
-    "icon": "icepanel.io",
+    "icon": "./assets/docker-svgrepo-com.svg",
     "rating": 4.8,
     "difficulty": "Advanced",
     "badge": "Containers"
@@ -64,7 +64,7 @@
     "name": "Tailwind CSS",
     "category": "Styling",
     "description": "A utility-first CSS framework packed with classes that can be composed to build any design directly in your markup.",
-    "icon": "icepanel.io",
+    "icon": "./assets/tailwindcss-icon-svgrepo-com.svg",
     "rating": 4.8,
     "difficulty": "Beginner-Friendly",
     "badge": "Fast"
@@ -74,7 +74,7 @@
     "name": "MongoDB",
     "category": "Database",
     "description": "A document-based distributed database designed for modern application developers and the cloud era.",
-    "icon": "icepanel.io",
+    "icon": "./assets/mongodb-svgrepo-com.svg",
     "rating": 4.6,
     "difficulty": "Beginner-Friendly",
     "badge": "NoSQL"
@@ -84,7 +84,7 @@
     "name": "Kubernetes",
     "category": "DevOps",
     "description": "An open-source container orchestration system for automating software deployment, scaling, and management.",
-    "icon": "icepanel.io",
+    "icon": "./assets/kubernetes-svgrepo-com.svg",
     "rating": 4.7,
     "difficulty": "Advanced",
     "badge": "Orchestration"
@@ -94,7 +94,7 @@
     "name": "Git",
     "category": "Tools",
     "description": "A free and open-source distributed version control system designed to handle everything from small to very large projects.",
-    "icon": "icepanel.io",
+    "icon": "./assets/git-svgrepo-com.svg",
     "rating": 4.9,
     "difficulty": "Beginner-Friendly",
     "badge": "Standard"
@@ -104,7 +104,7 @@
     "name": "Next.js",
     "category": "Frontend",
     "description": "A flexible React framework that gives you building blocks to create fast, full-stack web applications.",
-    "icon": "icepanel.io",
+    "icon": "./assets/nextjs-svgrepo-com.svg",
     "rating": 4.7,
     "difficulty": "Intermediate",
     "badge": "Full-Stack"
@@ -114,7 +114,7 @@
     "name": "Redis",
     "category": "Database",
     "description": "An open-source, in-memory data structure store used as a database, cache, and message broker.",
-    "icon": "icepanel.io",
+    "icon": "./assets/redis-svgrepo-com.svg",
     "rating": 4.8,
     "difficulty": "Intermediate",
     "badge": "Blazing-Fast"
@@ -124,7 +124,7 @@
     "name": "Rust",
     "category": "Language",
     "description": "A multi-paradigm, high-performance programming language focused on safety, especially safe concurrency.",
-    "icon": "icepanel.io",
+    "icon": "./assets/rust-svgrepo-com.svg",
     "rating": 4.9,
     "difficulty": "Advanced",
     "badge": "Loved"
