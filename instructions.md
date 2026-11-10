@@ -8,6 +8,8 @@
 1. navbar
 2. banner
 3. third commit- create data.json
+4. forth commit- loading json data, creating data.json and types.ts, fetching data
+5. fifth commit- Technology Cards
 
 ---
 
