@@ -1,3 +1,5 @@
+import type { Dispatch, SetStateAction } from "react";
+
 export interface Istack {
   id: string;
   name: string;
@@ -7,6 +9,17 @@ export interface Istack {
   rating: number;
   difficulty: string;
   badge: string;
+}
+
+export interface IstackCard {
+  stack: Istack;
+  selectedStackState: Istack[];
+  setSelectedStackState: Dispatch<SetStateAction<Istack[]>>;
+}
+
+export interface IselectedStack {
+  selectedStackState: Istack[];
+  setSelectedStackState: Dispatch<SetStateAction<Istack[]>>;
 }
 
 export interface IstacksPromise {

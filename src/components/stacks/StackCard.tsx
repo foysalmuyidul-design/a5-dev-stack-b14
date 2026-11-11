@@ -1,6 +1,19 @@
-import type { Istack } from "../../types";
+import type { Istack, IstackCard } from "../../types";
 
-const StackCard = ({ stack }: { stack: Istack }) => {
+const StackCard = ({
+  stack,
+  selectedStackState,
+  setSelectedStackState,
+}: IstackCard) => {
+  const handleAddStack = (stack: Istack) => {
+    const isAlreadyAdded = selectedStackState.some(
+      (selectedStack) => selectedStack.id === stack.id,
+    );
+    if (!isAlreadyAdded) {
+      const newSelectedStack = [...selectedStackState, stack];
+      setSelectedStackState(newSelectedStack);
+    }
+  };
   return (
     <div className="card bg-base-100 w-full border border-gray-100 rounded-2xl shadow-sm p-6">
       {/* Header Row: Icon, Title, and Badge */}
@@ -42,7 +55,10 @@ const StackCard = ({ stack }: { stack: Istack }) => {
 
       {/* Action Button */}
       <div className="card-actions w-full">
-        <button className="btn btn-neutral w-full bg-[#0f172a] text-white hover:bg-slate-800 normal-case rounded-xl font-medium tracking-wide">
+        <button
+          onClick={() => handleAddStack(stack)}
+          className="btn btn-neutral w-full bg-[#0f172a] text-white hover:bg-slate-800 normal-case rounded-xl font-medium tracking-wide"
+        >
           Add to Stack
         </button>
       </div>
