@@ -22,6 +22,12 @@ export interface IselectedStack {
   setSelectedStackState: Dispatch<SetStateAction<Istack[]>>;
 }
 
+export interface IselectedStackCard {
+  selectedStack: Istack;
+  selectedStackState: Istack[];
+  setSelectedStackState: Dispatch<SetStateAction<Istack[]>>;
+}
+
 export interface IstacksPromise {
   stacksPromise: Promise<Istack[]>;
 }

@@ -10,53 +10,8 @@
 3. third commit- create data.json
 4. forth commit- loading json data, creating data.json and types.ts, fetching data
 5. fifth commit- Technology Cards
-
----
-
-### 🃏 Technology Cards
-
-- Display all technologies in a 3-column layout (responsive: 1 column on mobile, 2 on tablet).
-- Each card includes:
-  - Icon
-  - Badge
-  - Name
-  - Description
-  - Category chip
-  - Difficulty
-  - Rating with a star
-  - "Add to Stack" button
-
----
-
-### 🧰 Your Stack Section (Sidebar)
-
-- A "Your Stack" panel sits beside the technology grid.
-- Shows a heading and the selected count — example: "2 Technology Selected".
-- By default the panel shows an empty message.
-
-| Empty state                                     | With selected items                               |
-| ----------------------------------------------- | ------------------------------------------------- |
-| ![Your Stack empty](./ui/YourStack-without.png) | ![Your Stack with items](./ui/YourStack-with.png) |
-
----
-
-### ➕ Add to Stack Functionality
-
-- Clicking "Add to Stack" adds that technology to the "Your Stack" panel.
-- Each stack item shows: icon, name, category, and a remove (✕) button.
-- Stack layout: 1 column.
-- **The same technology cannot be added twice.** Trying again shows a warning alert.
-
-- Once added, that card's button becomes disabled and reads "✓ Added to Stack".
-
----
-
-### ❌ Remove Functionality
-
-- Clicking the ✕ button on a stack item removes only that item from the stack.
-- "Remove All" button clears the whole stack at once.
-
----
+6. sixth commit - selected state added
+7. seventh commit - removing added stack
 
 ### 🦶 Footer
 

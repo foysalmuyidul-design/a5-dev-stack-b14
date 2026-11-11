@@ -1,4 +1,5 @@
 import type { Istack, IstackCard } from "../../types";
+import { toast } from "react-toastify";
 
 const StackCard = ({
   stack,
@@ -12,6 +13,9 @@ const StackCard = ({
     if (!isAlreadyAdded) {
       const newSelectedStack = [...selectedStackState, stack];
       setSelectedStackState(newSelectedStack);
+      toast.success(`${stack.name} added to your stack!`);
+    } else {
+      toast.error(`${stack.name} is already added!`);
     }
   };
   return (
