@@ -1,2 +1,12 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+/* 1. Gradient background (for Primary Buttons) */
+@utility bg-brand-gradient {
+  @apply bg-linear-to-r from-orange-500 via-pink-500 to-violet-600;
+}
+
+/* 2. Gradient text (for Brand Name & Hero Highlight) */
+@utility text-brand-gradient {
+  @apply bg-linear-to-r from-orange-500 via-pink-500 to-violet-600 bg-clip-text text-transparent;
+}

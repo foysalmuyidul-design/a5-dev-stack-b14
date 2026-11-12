@@ -12,22 +12,7 @@
 5. fifth commit- Technology Cards
 6. sixth commit - selected state added
 7. seventh commit - removing added stack
-
-### 🦶 Footer
-
-- Footer designed based on the UI.
-- Brand block: logo, name, short description, social links (GitHub, Twitter, LinkedIn).
-- Three link groups: Product, Company, Legal.
-- Bottom bar: copyright text + Privacy and Terms links.
-
----
-
-### 📱 Responsive Design
-
-- Fully responsive across mobile, tablet, and desktop.
-- Follow standard responsive practices.
-
----
+8. eighth commit - footer added
 
 # 🚀 Challenges Part (10 Marks)
 
