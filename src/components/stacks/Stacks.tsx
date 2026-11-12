@@ -10,7 +10,7 @@ const Stacks = ({ stacksPromise }: IstacksPromise) => {
   const [selectedStackState, setSelectedStackState] = useState<Istack[]>([]);
   return (
     <div
-      className={`${commonStyle} pt-10 pb-5 grid grid-cols-1 lg:grid-cols-5  gap-3  bg-gray-50`}
+      className={`${commonStyle} pt-10 pb-10 grid grid-cols-1 lg:grid-cols-5  gap-3  bg-gray-50 border-b border-gray-200`}
     >
       <div
         className={`col-span-5 lg:col-span-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3  bg-gray-50`}

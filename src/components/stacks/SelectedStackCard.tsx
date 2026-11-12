@@ -12,7 +12,7 @@ const SelectedStackCard = ({
     setSelectedStackState(newSelectedStack);
   };
   return (
-    <div className="flex items-center justify-between w-full p-2 bg-amber-300 border border-gray-200 rounded-xl mb-2">
+    <div className="flex items-center justify-between w-full p-2  border border-gray-200 rounded-xl mb-2">
       {/* Left: Icon, Name, and Category */}
       <div className="flex w-[80%]  items-center gap-2">
         <img

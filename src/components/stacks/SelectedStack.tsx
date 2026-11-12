@@ -36,7 +36,7 @@ const SelectedStack = ({
               })}
               <button
                 onClick={handleRemoveAll}
-                className="w-full border border-[#d82c20]/50 mt-10 mb-5 rounded-xl py-3 text-xl text-[#d82c20] font-semibold"
+                className="w-full border border-[#d82c20]/50 mt-10 mb-5 rounded-xl py-1 text-lg text-[#d82c20] font-semibold"
               >
                 Remove All
               </button>
